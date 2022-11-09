@@ -1,5 +1,5 @@
 import mysql.connector     # Disponibiliza função para conectar ao MySQL 
-import xlrd				   # Ferramenta para extrair informações de um .xls
+import xlrd		   # Ferramenta para extrair informações de um .xls
 import os                  # Funcionalidades dependentes do sistema operacional
 
 class Excel_to_Mysql():
@@ -19,17 +19,17 @@ class Excel_to_Mysql():
 		# Criação da tabela no servidor MySQL:
 		## Função importada da biblioteca mysql.connector para estabelecer conexão com MySQL.
 		self.conn = mysql.connector.connect(host = self.host,
-											user = self.my_db_user,
-											passwd = self.my_db_password, 
-											database = self.schema)
+						user = self.my_db_user,
+						passwd = self.my_db_password, 
+						database = self.schema)
 		self.cur = self.conn.cursor()
 
 	def conexao_mysql(self):
 		## Função importada da biblioteca mysql.connector para estabelecer conexão com MySQL.
 		self.conn = mysql.connector.connect(host = self.host,
-											user = self.my_db_user,
-											passwd = self.my_db_password, 
-											database = self.schema)
+						user = self.my_db_user,
+						passwd = self.my_db_password, 
+						database = self.schema)
 		self.cur = self.conn.cursor()
 		lista = list()
 		diretorio = ("C:\\Users\\ccece\\Documents\\Projetos AD\\"
