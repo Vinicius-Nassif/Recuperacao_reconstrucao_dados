@@ -195,7 +195,7 @@ Se o script estiver sendo importado como um módulo, a função main() não ser�
 
 
 
-## 6. Conclusão
+## 5. Conclusão
 
 ​		Esse projeto foi criado para melhor elucidar a automação de processos na recuperação e reestruturação de um banco de dados, pois no seu desenvolvimento foi necessária a interação de várias bibliotecas do Python, bem como entender conceitos e aplicações da lógica de programação, bem como conceitos de MySQL.
 
